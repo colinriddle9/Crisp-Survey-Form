@@ -1,0 +1,247 @@
+<div class="container">
+  <header class="header">
+    <h1 id="title" class="text-center">Crisp Survey Form</h1>
+    <p id="description" class="description text-center">
+      Thank you for your feedback 
+    </p>
+  </header>
+  <form id="survey-form">
+    <div class="form-group">
+      <label id="name-label"
+             for="name">Name</label>
+      <input
+             type="text"
+             name="name"
+             id="name"
+             class="form-control"
+             placeholder="Enter your name"
+             required
+             />
+    </div>
+    <div class="form-group">
+      <label id="email-label"
+             for="email">Email</label>
+      <input
+             type="email"
+             name="email"
+             id="email"
+             class="form-control"
+             placeholder="Enter your Email"
+             required
+             />
+    </div>
+    <div class="form-group">
+      <label id="number-label"
+      for="number"
+             >Age<span class="clue">(optional)
+        </span></label
+        >
+      <input
+             type="number"
+             name"age"
+             id="number"
+             min="10"
+             max="99"
+             class="form-control"
+             placeholder="age"
+             />
+    </div>
+    <div class="form-group">
+      <p>
+        Which do you prefer?</p>
+      <select id="dropdown" name="type"
+              class="form-control" required>
+        <option disabled selected
+                value>Select Type</option>
+        <option
+                value="corn snack">corn snack</option>
+        <option
+                value="crisp">crisp</option>
+        <option
+                value="riged crisp">rigid crisp</option>
+        <option
+           value="tortilla">tortilla</option>
+        <option
+                value="baked">baked</option>
+        <option
+                value="other">other</option>
+      </select>
+    </div>
+    
+    <div class="form-group">
+      <p>when is your favourite time to eat crisps?</p>
+      <label>
+        <input
+               name="user-time"
+               value="Morning"
+               type="radio"
+               class="input-radio"
+               checked
+               />Morning</label
+      >
+      <label>
+        <input
+               name="user-time"
+               value="Noon"
+               type="radio"
+               class="input-radio"
+               />Noon</label
+        >
+      <label>
+        <input
+               name="user-time"
+               value="Evening"
+               type="radio"
+               class="input-radio"
+               />Evening</label
+        >
+    </div>
+    
+    <div class="form-group">
+      <p>
+        What is your favourite flavour?</p>
+      <select id="most-like"
+              name="mostlike" class="form-control" required>
+        <option disabled selected
+                value>Select an option</option>
+        <option
+                value="Chicken">Chicken</option>
+        <option
+                value="Beef">Beef</option>
+        <option
+                value="Worcester sauce">Worcester Sauce</option>
+        <option
+                value="Cheese and Onion">Cheese and Onion</option>
+        <option
+                value="Spring Onion">Spring Onion</option>
+        <option
+                value="pickled Onion">Pickled Onion</option>
+        <option
+                value="Sweet Chilli">Sweet Chilli</option>
+        <option
+                value="Smokey Bacon">Smokey Bacon</option>
+        <option
+                value="Ready Salted">Ready Salted</option>
+        <option
+                value="Salt and Vinegar">Salt and Vinegar</option>
+        <option
+                value="Other">Other</option>
+      </select>
+    </div>
+ 
+      <div class="form-group">
+      <p>
+        Which is your favourite brands?
+        <span class="clue">(Check all that apply)</span>
+      </p>
+
+      <label
+        ><input
+          name="prefer"
+          value="Tayto"
+          type="checkbox"
+          class="input-checkbox"
+        />Tayto</label
+      >
+      <label>
+        <input
+          name="prefer"
+          value="Walkers"
+          type="checkbox"
+          class="input-checkbox"
+        />Walkers</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="Pringles"
+          type="checkbox"
+          class="input-checkbox"
+        />Pringles</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="McCoys"
+          type="checkbox"
+          class="input-checkbox"
+        />McCoys</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="Kettle"
+          type="checkbox"
+          class="input-checkbox"
+        />Kettle</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="Tyrrels"
+          type="checkbox"
+          class="input-checkbox"
+        />Tyrrels</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="Doritos"
+          type="checkbox"
+          class="input-checkbox"
+        />Doritos</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="Brannigans"
+          type="checkbox"
+          class="input-checkbox"
+        />Brannigans</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="Lays"
+          type="checkbox"
+          class="input-checkbox"
+        />Lays</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="Monster Munch"
+          type="checkbox"
+          class="input-checkbox"
+        />Monster Munch</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="Hula Hoops"
+          type="checkbox"
+          class="input-checkbox"
+        />Hula Hoops</label
+      >
+    </div>  
+
+    
+    <div class="form-group">
+      <p>Any comments or suggestions?</p>
+      <textarea
+                id="comments"
+                class="input-textarea"
+                name="comment"
+                placeholder="Enter your comment here..."
+                ></textarea>
+    </div>
+
+    <div class="form-group">
+      <button type="submit" id="submit" class="submit-button">
+        Submit
+      </button>
+    </div>
+  </form>
+</div>
+    
+    
